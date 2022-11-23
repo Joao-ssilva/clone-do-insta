@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FAFAFA;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-itens {
+    width: 350px
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    background: #ffffff;
+    padding: 50px 30px 40px 30px;
+
+}
+
+.img-celular {
+    width: 450px;
+}
+
+.imagem-celular {
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 26px;
+    transition: opacity 2s ease-in-out;
+
+    /* bottom: 72px; */
+}
+
+.container-imagens {
+    position: relative;
+
+}
+
+
+.container-NC {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid #dbdbdb;
+    background: #ffffff;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+}
+
+.cadastre-se {
+    color: #0095f6;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+
+
+input {
+    height: 36px;
+    outline: none;
+    padding-left: 5px;
+    background: #FAFAFA;
+    margin-top: 5px;    border-radius: 3px;
+    color: #262626;
+    border: 2px solid #dbdbdb;
+}
+
+.Botao-btn {
+    height: 30px;
+    margin-top: 8px;
+    background: #0095f6;
+    color: #ffffff;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.entrar-com-fc {
+    display: flex;
+    flex-direction: column;
+    color: #385185;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.esqueceu-a-senha {
+    text-align: center;
+    margin-top: 16px;
+    text-decoration: none;
+    color: #00376b;
+}
+
+.obtn-app {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.conteiner-imagens {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.a1 {
+    display: flex;
+}
+
+.a2 {
+   display: flex;
+}
